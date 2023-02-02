@@ -6,7 +6,7 @@ Commands
 
  *stop_veeam.ps1*
  
- Open powershell as administrator and run script
+ Open powershell as administrator and run the script
  
  ~~~powershell 
  .\stop_veeam.ps1
@@ -17,7 +17,7 @@ Commands
 
  *start_veeam.ps1*
  
- Open powershell as administrator and run script
+ Open powershell as administrator and run the script
  
  ~~~powershell 
  .\stop_veeam.ps1
