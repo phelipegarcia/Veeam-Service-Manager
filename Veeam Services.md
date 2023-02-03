@@ -1,35 +1,32 @@
 ![VeeamLogo](https://cdn.veeam.com/content/dam/veeam/global/veeam-graphics/veeam_logo_topaz-500.png.web.480.480.webp)
 
 
-## Status service Veeam VBR
+## Menu
 
- *stop_veeam.ps1*
+![image](https://user-images.githubusercontent.com/25879162/216485173-d95a4e96-94e2-4f4f-8ac7-5c9ef26bfba1.png)
+
+
+## Status service Veeam VBR
  
- Open powershell as administrator and run the command
- 
- ~~~powershell 
- Get-Service Veeam*
- ~~~
- 
- ![image](https://user-images.githubusercontent.com/25879162/216475754-1c308391-ecf8-46f1-b4f7-0d9758531d1c.png)
+ Option 1 
+
+ ![image](https://user-images.githubusercontent.com/25879162/216484924-95a708ee-d3d9-4fb2-80e5-67eecb398b0f.png)
 
 
 ## Stop service Veeam VBR
 
- Open powershell as administrator and run the command
+ Option 2
  
- ~~~powershell 
- Get-Service Veeam* | Stop-Service
- ~~~
- 
-![image](https://user-images.githubusercontent.com/25879162/216475478-2d56eba5-deaa-42a4-acdf-b3fa351a7df7.png)
+![image](https://user-images.githubusercontent.com/25879162/216483731-6ffc9c3a-719a-4bcc-a521-1a961c9e7fc2.png)
 
 ## Start service Veeam VBR
 
-Open powershell as administrator and run the command
+Option 3
  
- ~~~powershell 
-Get-Service Veeam* | Start-Service
- ~~~
- 
-![image](https://user-images.githubusercontent.com/25879162/216475692-7c148a3d-48eb-4220-90e4-797f4061465b.png)
+![image](https://user-images.githubusercontent.com/25879162/216484235-862b8c22-ae62-41ae-be38-a43d3ce93bb5.png)
+
+## Restart service Veeam VBR
+
+Option 4
+
+![image](https://user-images.githubusercontent.com/25879162/216484370-7ed14428-68f4-4bbe-9fef-8b82bc203375.png)
