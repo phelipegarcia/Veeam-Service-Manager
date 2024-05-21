@@ -36,17 +36,17 @@ goto menu
 :option2
 cls
 echo ==================================
-echo *      Stop Veeam Services       *
+echo *    Stopping Veeam Services     *
 echo ==================================
 Powershell.exe -ExecutionPolicy Unrestricted -Command "& {Get-Service Veeam* | Stop-Service}"
-echo successful started 
+echo successful stopped 
 pause
 goto menu
 
 :option3
 cls
 echo ==================================
-echo *      Start Veeam Services      *
+echo *    Starting Veeam Services     *
 echo ==================================
 Powershell.exe -ExecutionPolicy Unrestricted -Command "& {Get-Service Veeam* | Start-Service}"
 echo successfully started
@@ -56,7 +56,7 @@ goto menu
 :option4
 cls
 echo ==================================
-echo *     Restart Veeam Services     *
+echo *   Restarting Veeam Services    *
 echo ==================================
 Powershell.exe -ExecutionPolicy Unrestricted -Command "& {Get-Service Veeam* | Stop-Service}"
 Powershell.exe -ExecutionPolicy Unrestricted -Command "& {Get-Service Veeam* | Start-Service}"
